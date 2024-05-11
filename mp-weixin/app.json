@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/shitixinxi/list",
+    "pages/shitixinxi/add-or-update",
+    "pages/shitixinxi/detail",
+    "pages/shiticeshi/list",
+    "pages/shiticeshi/add-or-update",
+    "pages/shiticeshi/detail",
+    "pages/shijuanpiyue/list",
+    "pages/shijuanpiyue/add-or-update",
+    "pages/shijuanpiyue/detail",
+    "pages/kaoshichengji/list",
+    "pages/kaoshichengji/add-or-update",
+    "pages/kaoshichengji/detail",
+    "pages/banjileixing/list",
+    "pages/banjileixing/add-or-update",
+    "pages/banjileixing/detail",
+    "pages/biaoqianleixing/list",
+    "pages/biaoqianleixing/add-or-update",
+    "pages/biaoqianleixing/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "随堂测微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shitixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "试题信息"
+      },
+      {
+        "pagePath": "pages/kaoshichengji/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "考试成绩"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
